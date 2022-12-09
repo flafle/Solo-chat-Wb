@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat de socket</title>
+
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script> 
+    <!-- defer me trae los scripts de forma asyncrona sin que haya un bloqueado dentro de la pag web-->
+    <script defer src="client.js"></script>
+</head>
+
+<body>
+    <form action="" id="msgForm">
+        <div id="mensajes"></div>
+        <input type="text" name="msg">
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
